@@ -6,7 +6,7 @@ app = express();
 app = configure(app);
 
 // 建立数据库连接
-mongoose.connect('mongodb://localhost/instagrammy');
+mongoose.connect('mongodb://localhost/express-ins');
 mongoose.connection.on('open', function() {
   console.log('Mongoose connected.');
 });
