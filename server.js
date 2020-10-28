@@ -6,7 +6,7 @@ app = express();
 app = configure(app);
 
 // 建立数据库连接
-mongoose.connect('mongodb://localhost/express-ins');
+mongoose.connect('mongodb://localhost/express-quickstart');
 mongoose.connection.on('open', function() {
   console.log('Mongoose connected.');
 });
